@@ -10,10 +10,9 @@ tested with:
 
 ## installation
 1) clone the repository
-2) install Python 3.11
-3) install pipenv
-4) cd to pyrepeater/pyrepeater/
-5) run `pipenv install`
+2) install packages: `sudo apt update && sudo apt install python3 python3-pip build-essential python3-wheel sox`
+3) create an environment: `python3 -m venv ./venv && source ./venv/bin/activate`
+4) install packages into the virtual environment: `pip install ./pyrepeater/requirements.txt`
 
 ## configuration
 1) replace the files in the "sounds" directory with wav files crafted for your repeater.
